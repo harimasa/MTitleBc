@@ -1,0 +1,13 @@
+name: MTitleBc
+version: '${project.version}'
+main: me.matt.mtitlebc.MTitleBc
+api-version: '1.20'
+authors: [Mattgyve1990]
+description: The plugin adds the /titlebc command, which displays an announcement on the screen
+commands:
+  titlebc:
+    usage: /<command> <title> <text>
+permissions:
+  mtbc.title:
+    description: give permission for /titlebc
+    default: op
